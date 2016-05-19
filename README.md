@@ -41,13 +41,3 @@ Crea un TreeSet ordenado por el Comparator implementado.
 #EnumSet
 * Son utilizados para guardar objetos Enum.
 
-#Diferencias entre List y Set
-			
-
-				List				Set
-————————————————————————————
-Duplicados		  SI				NO
-————————————————————————————
-Orden de		   	NO 				SI
-insercion
-————————————————————————————
