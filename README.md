@@ -1,26 +1,26 @@
 #Array
-Una de las desventajas es que no son muy amigables, por ejemplo para agregar tendríamos que implementar nuestro propio método para agregar un nuevo elemento.
+Una de las desventajas es que no son muy amigables, por ejemplo para agregar un elemento tendríamos que implementar nuestro propio método.
 
 
 #ArrayList
 
-* ArrayList son rapidos 
 * Son solo del mismo tipo, Ejemplo: [String, String, String]
 * En cuestión de performance los ArrayList son buenos en términos de búsqueda de un elemento ya que es O(1), eso quiere decir que no recorre toda la lista para poder encontrar un elemento, si no que va a la posición especifica y nos desenvuelve el elemento que estamos buscando.
 
 #LinkedList
 
 * En un LinkedList todos los elementos están encadenados, es decir cada elemento es considerado como un nodo, y cada nodo apunta hacia un el siguiente elemento y hacia el interior.
-* Los linkedList son mas rápidos en cuestión de inserción y eliminación de elementos, ya que solo tienen que romper la cadena y apuntar al siguiente elemento en el caso de agregar, o no apuntar a un elemento en el caso de eliminar.
+* Los linkedList son mas rápidos en cuestión de inserción y eliminación de elementos, ya que solo tienen que romper la cadena y apuntar al siguiente elemento en el caso de agregar, o dejar de apuntar a un elemento en el caso de eliminar.
+
 
 #HashSet
 
 * Esta basado en HashMap
-* Necesito tener un metodo hashCode() 
-* Los elementos son únicos, cuando ingresas un elemento dentro de un HashSet este no se mete si ya existe dentro de la colección.
- 
+* Los elementos son únicos, cuando ingresas un elemento dentro de un HashSet este no ingresa si ya existe dentro de la colección.
+
 
 #TreeSet
+
 * Esta basado en TreeMap
 * El tiempo para esta estructura es de log(n)
 * No se permiten duplicados
