@@ -13,19 +13,20 @@ public class Main {
 
     public static void main(String args[]) {
 
-        ArrayListCollection arraylist = new ArrayListCollection(5);
+
+        ArrayListCollection arraylist = new ArrayListCollection(2);
         arraylist.testCollection();
 
-        LinkedListCollection linkedlist = new LinkedListCollection(5);
+        LinkedListCollection linkedlist = new LinkedListCollection(2);
         linkedlist.testCollection();
 
-        HashSetCollection hashset = new HashSetCollection(5);
+        HashSetCollection hashset = new HashSetCollection(2);
         hashset.testCollection();
 
-        TreeSetCollection treeset = new TreeSetCollection(5);
+        TreeSetCollection treeset = new TreeSetCollection(2);
         treeset.testCollection();
 
-        EnumSetCollection enumset = new EnumSetCollection(5);
+        EnumSetCollection enumset = new EnumSetCollection(2);
         enumset.testCollection();
 
 

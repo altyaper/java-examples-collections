@@ -1,5 +1,6 @@
 package com.collections.list;
 
+import com.models.Category;
 import com.models.Product;
 import com.models.User;
 import com.util.SharedMethods;
@@ -29,7 +30,7 @@ public class ArrayListCollection extends SharedMethods{
 
             try{
                 User user = new User("Jorge Chavez", 24, UsefullMethods.generateRandomWord()+"@gmail.com");
-                Product product = new Product(UsefullMethods.generateRandomWord(), UsefullMethods.generateRandomPrice(200,900), user);
+                Product product = new Product(UsefullMethods.generateRandomWord(), UsefullMethods.generateRandomPrice(200,900), user, Category.CategoryProduct.HOGAR);
                 items.add(product);
             }catch (IOException e){
                 System.out.print(e);
@@ -45,7 +46,7 @@ public class ArrayListCollection extends SharedMethods{
         Iterator i = items.iterator();
         while(i.hasNext()){
             Product p = (Product) i.next();
-            System.out.println(p.getName());
+            System.out.println(p);
         }
     }
 
