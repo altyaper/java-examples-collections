@@ -29,7 +29,16 @@ public class HashSetCollection extends SharedMethods{
             try{
                 User user = new User("Jorge Chavez", 24, UsefullMethods.generateRandomWord()+"@gmail.com");
                 Product product = new Product(UsefullMethods.generateRandomWord(), UsefullMethods.generateRandomPrice(200,900), user);
+                Product product2 = new Product(UsefullMethods.generateRandomWord(), UsefullMethods.generateRandomPrice(200,900), user);
+                Product product3 = new Product(UsefullMethods.generateRandomWord(), UsefullMethods.generateRandomPrice(200,900), user);
+
                 items.add(product);
+                items.add(product2);
+                items.add(product3);
+
+                //No duplicate values
+
+
             }catch (IOException e){
                 System.out.print(e);
             }
@@ -42,6 +51,7 @@ public class HashSetCollection extends SharedMethods{
     }
 
     public void testCollection() {
+
         System.out.println(items);
     }
 

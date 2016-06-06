@@ -7,8 +7,6 @@ import java.lang.reflect.Field;
  */
 public class SuperClass {
 
-
-
     @Override
     public String toString(){
         StringBuilder result = new StringBuilder();
